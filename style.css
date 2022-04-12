@@ -1,0 +1,9 @@
+head, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h3 {
+    display: inline;
+    color: red;
+}
