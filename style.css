@@ -1,9 +1,36 @@
-head, body {
+html, body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    width: 100%;
+    height: 100%;
+    font-family: Futura;
 }
-h3 {
-    display: inline;
-    color: red;
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('./ami_portfolio_bg.jpeg');
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: rgba(255, 0, 0, 0.5);;
+}
+
+.nav > * {
+    z-index: inherit;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    z-index: 0;
+    z-index: 2;
+    background-color: rgba(255, 192, 203, 0.6);;
 }
